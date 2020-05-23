@@ -5,10 +5,12 @@ import java.util.Random;
 public class MyRandom {
 
     public static void main(String[] args) {
+        System.out.println();
         System.out.println("Next turn");
 
 
         System.out.println("при помощи Math.random()");
+        System.out.println();
         System.out.println("[1;6]");
         System.out.println(" формула = Math.random() * (max-min+1) ) + min");
         System.out.println(" int a = (int) (Math.random() *(6-1+1) +1");
