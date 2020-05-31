@@ -1,4 +1,4 @@
-package OOP.RLE;
+package OOP.HomeTask3.RLEjUnit;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,5 +1,5 @@
+package OOP.HomeTask3.RLEjUnit;
 
-package OOP.RLE;
 public class RLECompress {
 
     public String encode(String source) {

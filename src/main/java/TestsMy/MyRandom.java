@@ -1,4 +1,4 @@
-package Test;
+package TestsMy;
 
 import java.util.Random;
 
@@ -8,7 +8,7 @@ public class MyRandom {
         System.out.println();
         System.out.println("Next turn");
 
-
+        System.out.println();
         System.out.println("при помощи Math.random()");
         System.out.println();
         System.out.println("[1;6]");
@@ -20,6 +20,22 @@ public class MyRandom {
             int a = (int) (Math.random() * 6 +1);
             System.out.print(a+",");
         }
+
+        System.out.println();
+        System.out.println();
+
+        System.out.println("[без диапазона]");
+
+        System.out.println(" int a = (int) (Math.random()");
+
+        for (int i = 0; i <100 ; i++) {
+            int a = (int) (Math.random());
+            System.out.print(a+",");
+        }
+
+
+        System.out.println();
+        System.out.println();
         System.out.println();
         System.out.println("при помощи Random ran = new Random();");
 
@@ -46,6 +62,14 @@ public class MyRandom {
             System.out.print(ran.nextInt(6) + 1+",");
         }
 
+        System.out.println();
+        System.out.println();
+        System.out.println("[без диапазона]");
+        System.out.println(" System.out.print(ran.nextInt()");
+
+        for (int i = 0; i <100 ; i++) {
+            System.out.print(ran.nextInt()+",");
+        }
        /* Random r = new Random();
         return r.nextInt((max - min) + 1) + min;
 
